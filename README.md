@@ -1,2 +1,2 @@
-# TF-ACA-01.WordPress-Basics
-Creating IaC using A Cantrill's course as reference.
+# PRI01-ACantrillPractice01
+Basic VPC Infra with Security Group, Routing Table and Subnets
