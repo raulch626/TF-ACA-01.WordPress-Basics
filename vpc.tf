@@ -88,7 +88,7 @@
   
     vpc_id     = aws_vpc.main.id
     cidr_block 	= "10.16.144.0/20"  
-    availability_zone = "ca-central-1c"
+    availability_zone = "ca-central-1d"
     
     tags = {
       Name = "sn-db-C"
@@ -99,7 +99,7 @@
   
     vpc_id     = aws_vpc.main.id
     cidr_block 	= "10.16.160.0/20"  
-    availability_zone = "ca-central-1c"
+    availability_zone = "ca-central-1d"
     
     tags = {
       Name = "sn-app-C"
@@ -110,7 +110,7 @@
   
     vpc_id     = aws_vpc.main.id
     cidr_block 	= "10.16.176.0/20"  
-    availability_zone = "ca-central-1c"
+    availability_zone = "ca-central-1d"
     map_public_ip_on_launch = true
     
     tags = {
